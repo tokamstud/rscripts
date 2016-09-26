@@ -23,5 +23,5 @@ for (i in c(0:n)) {
        switch <- switch+1;
     }
 }
-print(keep/n);
+
 print(switch/n);

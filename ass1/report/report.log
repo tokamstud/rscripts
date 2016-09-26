@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.17)  26 SEP 2016 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.9.17)  26 SEP 2016 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,18 +47,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  212 strings out of 493013
- 2247 string characters out of 6139317
+ 2245 string characters out of 6139317
  55632 words of memory out of 5000000
  3839 multiletter control sequences out of 15000+600000
  5497 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 21i,4n,19p,203b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 21i,4n,19p,505b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on report.pdf (1 page, 52735 bytes).
+Output written on report.pdf (1 page, 51680 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
