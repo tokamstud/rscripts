@@ -1,0 +1,12 @@
+rm( list=ls() ) # Clears all
+p <- c( .9, .9, .7, .8, .7, .9, .7, .7, .8, .8, .7, .9, .8, .9, .8 )
+
+###--- iv)
+n.replic <- 500
+###--- Matrix of 500 x 10 U[0,1]-values:
+u.matrix <- matrix( runif( n=n.replic*15 ), ncol=15 )
+functioning.matrix <- ( u.matrix < matrix( rep( p, times=n.replic), byrow=T, ncol=15 ) )
+y.functioning <- rowSums(functioning.matrix)
+hist( y.functioning, prob=TRUE, density=10 )
+###--- Estimate of P( at least seven work ):
+sum( y.functioning >= 11 )/n.replic

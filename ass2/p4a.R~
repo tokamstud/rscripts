@@ -1,0 +1,11 @@
+somevar <- 1:1000
+x <- rnorm(1000)
+data <- cbind(somevar, x)
+cor(data)
+
+require(correlate)
+newdata <- correlate(data, 0.5)
+cor(newdata)
+
+# values within variable do not change
+all(sort(newdata) == sort(data))
