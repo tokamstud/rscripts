@@ -1,3 +1,5 @@
+#b)
+
 n = 1e4
 
 EX1 <- 0; sd1 <- 1;
@@ -25,8 +27,7 @@ makecor <- function(rho12) {
     T2 <- -log(U2)
     plot(T1,T2,cex=0.1)
     plot(U1,U2,cex=0.1)
-    
-    cor(T1,T2)
+#c)
     Y <- T1+T2
     return (Y)
 }
@@ -34,7 +35,7 @@ makecor <- function(rho12) {
 Y1 <- makecor(-0.9)
 Y2 <- makecor(0.9)
 
-
+#c)
 hist(Y1, prob=TRUE,freq=FALSE, dens=20)
 curve(dnorm(x, mean=mean(Y1), sd=sd(Y1)),add=TRUE, col="blue", from=4, lwd=3)
 text(6,0.1,round(mean(Y1 >= 4),3),col="blue");
@@ -43,5 +44,7 @@ hist(Y2, prob=TRUE,freq=FALSE, dens=20)
 curve(dnorm(x, mean=mean(Y2), sd=sd(Y2)),add=TRUE, col="blue", from=4, lwd=3)
 text(8,0.1,round(mean(Y2 >= 4),3),col="blue");
 
-round(mean(Y1>=4),3)
-round(mean(Y2>=4),3)
+                                        #d)
+print("::::")
+round(mean(Y1>=4),3);round(sd(Y1>=4),3)/sqrt(n);
+round(mean(Y2>=4),3);round(sd(Y2>=4),3)/sqrt(n);
